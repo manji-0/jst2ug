@@ -1,0 +1,42 @@
+baseURL = "http://www.stackstorm.jp/"
+languageCode = "ja-JP"
+title = "StackStorm User Group - Japan"
+
+theme = "beautifulhugo"
+defaultContentLanguage = "en"
+
+pygmentsUseClasses = true
+pygmentCodeFences = true
+
+[Author]
+    name = "StackStorm User Group Japan"
+    github = "stackstorm-japan"
+
+[Params]
+    subtitle = "日本StackStormユーザ会"
+    dateFormat = "January 2, 2006"
+    rss = true
+    comments = true
+
+[[menu.main]]
+    name = "ホーム"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "ユーザ会について"
+    url = "/about-usergroup/"
+    weight = 2
+[[menu.main]]
+    name = "StackStormについて"
+    url = "/about-st2/"
+    weight = 3
+[[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
+
